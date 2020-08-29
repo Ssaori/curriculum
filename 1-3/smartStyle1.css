@@ -1,0 +1,34 @@
+/* ウィンドウ幅が767pxまでの場合*/
+@media screen and (max-width:767px){
+    /* wrapperで全体のサイズをやることでcontentsの大きさにずれがなくなった */
+    .wrapper{
+        width: 250px;
+    }
+    .header{
+        width: 250px;
+    }
+    .right{
+        width: 100px;
+    }
+    .footer{
+        width: 250px;
+    }
+}
+/* ウィンドウ幅が479pxまでの場合 */
+@media screen and (max-width:479px){
+    .wrapper{
+        width: 150px;
+    }
+    .header{
+        width: 150px;
+    }
+    .right{
+        width: 150px;
+    }
+    .footer{
+        width: 150px;
+    }
+    .main{
+        float: none;
+    }
+}
