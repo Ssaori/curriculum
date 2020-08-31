@@ -1,0 +1,63 @@
+.clearfix::after{
+    content: '';
+    display: none;
+    clear: both;
+}
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #141f40;
+}
+.center{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.right{
+    width: 150px;
+    height: 100%;
+    background-color: #80bfa8;
+}
+.left{
+    width: 250px;
+    height: 100%;
+}
+.bottom{
+    width: 250px;
+    height: 100px;
+    background-color: #0093b7;
+}
+.top{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.one{
+    width: 100px;
+    height: 100%;
+    background-color: #dbd403;
+}
+.left-right{
+    width: 150px;
+    height: 100%;
+}
+.two{
+    width: 100%;
+    height: 50px;
+    background-color: #ff9e6b;
+}
+.three{
+    width: 100%;
+    height: 100px;
+    background-color: #8c2727;
+}
+
+.footer{
+    width: 100%;
+    height: 100px; 
+    background-color: #d98d30;  
+}
